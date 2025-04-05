@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  padding: 20px;
+  border: 2px solid var(--black);
+  border-radius: 8px;
+}
+
+.friendsImg {
+  width: 100px;
+  height: 100px;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.spanOnline {
+  color: var(--green);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.spanOffline {
+  color: var(--red);
+  font-size: 18px;
+  font-weight: 400;
+}
